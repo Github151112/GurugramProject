@@ -36,13 +36,20 @@ public class LoginPage extends BaseClass {
 	public void loginIntoActititme(String username,String password) throws InterruptedException
 	{
 		usernameTextField.sendKeys(username);
-		Thread.sleep(2000);
 		passwordTextField.sendKeys(password);
-		Thread.sleep(2000);
 		loginButton.click();
 		
 	}
 	
+
+	public void invalidLoginIntoActititme(String username,String password) throws InterruptedException
+	{
+		usernameTextField.sendKeys(username);
+		passwordTextField.sendKeys(password);
+		loginButton.click();
+		usernameTextField.clear();
+		
+	}
 	
 	
 

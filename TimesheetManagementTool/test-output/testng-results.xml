@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[to connect with the server]]>
@@ -8,7 +8,13 @@
       <![CDATA[to connect with the database]]>
     </line>
     <line>
-      <![CDATA[=======LaunchingchromeBrowser============]]>
+      <![CDATA[=======LaunchingfirefoxBrowser============]]>
+    </line>
+    <line>
+      <![CDATA[=======LaunchingfirefoxBrowser============]]>
+    </line>
+    <line>
+      <![CDATA[=======LaunchingfirefoxBrowser============]]>
     </line>
     <line>
       <![CDATA[to close the database]]>
@@ -17,48 +23,82 @@
       <![CDATA[to close the server]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-12T07:03:12Z" name="Default suite" finished-at="2024-09-12T07:03:21Z" duration-ms="8924">
+  <suite started-at="2024-09-13T07:24:40Z" name="Suite" finished-at="2024-09-13T07:25:07Z" duration-ms="27743">
     <groups>
     </groups>
-    <test started-at="2024-09-12T07:03:12Z" name="Default test" finished-at="2024-09-12T07:03:21Z" duration-ms="8924">
+    <test started-at="2024-09-13T07:24:40Z" name="Test" finished-at="2024-09-13T07:25:07Z" duration-ms="27743">
+      <class name="testscripts.CreateUserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:24:58Z" name="setUp" finished-at="2024-09-13T07:25:04Z" duration-ms="5823" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======LaunchingfirefoxBrowser============]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUser()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:25:04Z" name="createNewUser" finished-at="2024-09-13T07:25:06Z" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:25:06Z" name="tearDown" finished-at="2024-09-13T07:25:07Z" duration-ms="1255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.CreateUserTest -->
+      <class name="testscripts.InvalidLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:50Z" name="setUp" finished-at="2024-09-13T07:24:55Z" duration-ms="5376" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======LaunchingfirefoxBrowser============]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:55Z" name="invalidLogin" description="verify the user is able to login with invalid credentials or not" finished-at="2024-09-13T07:24:57Z" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:57Z" name="tearDown" finished-at="2024-09-13T07:24:58Z" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscripts.InvalidLoginTest -->
       <class name="testscripts.ValidLoginTest">
-        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:12Z" name="toConnectWithServer" finished-at="2024-09-12T07:03:12Z" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="toConnectWithServer" finished-at="2024-09-13T07:24:40Z" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to connect with the server]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectWithServer -->
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:12Z" name="toConnectWithDatabase" finished-at="2024-09-12T07:03:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="toConnectWithDatabase" finished-at="2024-09-13T07:24:40Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to connect with the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:12Z" name="setUp" finished-at="2024-09-12T07:03:15Z" duration-ms="3205" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="setUp" finished-at="2024-09-13T07:24:46Z" duration-ms="6575" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[=======LaunchingchromeBrowser============]]>
+              <![CDATA[=======LaunchingfirefoxBrowser============]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:15Z" name="login" description="verify the user is able to login with valid credentials or not" finished-at="2024-09-12T07:03:20Z" duration-ms="5401" status="PASS">
+        <test-method signature="login()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:46Z" name="login" description="verify the user is able to login with valid credentials or not" finished-at="2024-09-13T07:24:48Z" duration-ms="1622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:20Z" name="tearDown" finished-at="2024-09-12T07:03:21Z" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:48Z" name="tearDown" finished-at="2024-09-13T07:24:50Z" duration-ms="2018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:21Z" name="tocloseDatabase" finished-at="2024-09-12T07:03:21Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:25:07Z" name="tocloseDatabase" finished-at="2024-09-13T07:25:07Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- tocloseDatabase -->
-        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.ValidLoginTest@7164ca4c]" started-at="2024-09-12T07:03:21Z" name="tocloseServer" finished-at="2024-09-12T07:03:21Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:25:07Z" name="tocloseServer" finished-at="2024-09-13T07:25:07Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the server]]>
@@ -66,6 +106,6 @@
           </reporter-output>
         </test-method> <!-- tocloseServer -->
       </class> <!-- testscripts.ValidLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
