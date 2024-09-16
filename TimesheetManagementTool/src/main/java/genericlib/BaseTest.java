@@ -14,6 +14,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 public class BaseTest implements IAutoConstant {
 	
@@ -31,11 +33,12 @@ public class BaseTest implements IAutoConstant {
 		Reporter.log("to connect with the database",true);
 	}
 	
+	@Parameters("browser")
 	@BeforeClass
-	public void setUp() throws IOException
+	public void setUp(@Optional("chrome") String browser) throws IOException
 	{
 		FLib lib = new FLib();
-		String browser = lib.getDataFromPropertyFile(PROP_PATH, "browser");
+		//String browser = lib.getDataFromPropertyFile(PROP_PATH, "browser");
 		String url = lib.getDataFromPropertyFile(PROP_PATH, "url");
 		Reporter.log("=======Launching"+browser+"Browser============",true);
 		if(browser.equalsIgnoreCase("chrome"))

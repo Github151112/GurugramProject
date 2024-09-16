@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="11" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
     <line>
       <![CDATA[to connect with the server]]>
@@ -8,13 +8,16 @@
       <![CDATA[to connect with the database]]>
     </line>
     <line>
-      <![CDATA[=======LaunchingfirefoxBrowser============]]>
+      <![CDATA[to connect with the database]]>
     </line>
     <line>
-      <![CDATA[=======LaunchingfirefoxBrowser============]]>
+      <![CDATA[to connect with the database]]>
     </line>
     <line>
-      <![CDATA[=======LaunchingfirefoxBrowser============]]>
+      <![CDATA[to close the database]]>
+    </line>
+    <line>
+      <![CDATA[to close the database]]>
     </line>
     <line>
       <![CDATA[to close the database]]>
@@ -23,89 +26,298 @@
       <![CDATA[to close the server]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-13T07:24:40Z" name="Suite" finished-at="2024-09-13T07:25:07Z" duration-ms="27743">
+  <suite started-at="2024-09-16T07:14:12Z" name="Suite" finished-at="2024-09-16T07:14:13Z" duration-ms="73">
     <groups>
     </groups>
-    <test started-at="2024-09-13T07:24:40Z" name="Test" finished-at="2024-09-13T07:25:07Z" duration-ms="27743">
-      <class name="testscripts.CreateUserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:24:58Z" name="setUp" finished-at="2024-09-13T07:25:04Z" duration-ms="5823" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[=======LaunchingfirefoxBrowser============]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createNewUser()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:25:04Z" name="createNewUser" finished-at="2024-09-13T07:25:06Z" duration-ms="1920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.CreateUserTest@2421cc4]" started-at="2024-09-13T07:25:06Z" name="tearDown" finished-at="2024-09-13T07:25:07Z" duration-ms="1255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testscripts.CreateUserTest -->
+    <test started-at="2024-09-16T07:14:12Z" name="Test2" finished-at="2024-09-16T07:14:13Z" duration-ms="70">
       <class name="testscripts.InvalidLoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:50Z" name="setUp" finished-at="2024-09-13T07:24:55Z" duration-ms="5376" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[=======LaunchingfirefoxBrowser============]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:55Z" name="invalidLogin" description="verify the user is able to login with invalid credentials or not" finished-at="2024-09-13T07:24:57Z" duration-ms="1838" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@7a220c9a]" started-at="2024-09-13T07:24:57Z" name="tearDown" finished-at="2024-09-13T07:24:58Z" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testscripts.InvalidLoginTest -->
-      <class name="testscripts.ValidLoginTest">
-        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="toConnectWithServer" finished-at="2024-09-13T07:24:40Z" duration-ms="15" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to connect with the server]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectWithServer -->
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="toConnectWithDatabase" finished-at="2024-09-13T07:24:40Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to connect with the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:40Z" name="setUp" finished-at="2024-09-13T07:24:46Z" duration-ms="6575" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
-            <line>
-              <![CDATA[=======LaunchingfirefoxBrowser============]]>
-            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:46Z" name="login" description="verify the user is able to login with valid credentials or not" finished-at="2024-09-13T07:24:48Z" duration-ms="1622" status="PASS">
+        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="invalidLogin" description="verify the user is able to login with invalid credentials or not" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:24:48Z" name="tearDown" finished-at="2024-09-13T07:24:50Z" duration-ms="2018" status="PASS">
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:25:07Z" name="tocloseDatabase" finished-at="2024-09-13T07:25:07Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- tocloseDatabase -->
-        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.ValidLoginTest@68702e03]" started-at="2024-09-13T07:25:07Z" name="tocloseServer" finished-at="2024-09-13T07:25:07Z" duration-ms="1" status="PASS">
+      </class> <!-- testscripts.InvalidLoginTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2024-09-16T07:14:12Z" name="Test1" finished-at="2024-09-16T07:14:13Z" duration-ms="70">
+      <class name="testscripts.ValidLoginTest">
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to connect with the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectWithDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="login" description="verify the user is able to login with valid credentials or not" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to close the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tocloseDatabase -->
+      </class> <!-- testscripts.ValidLoginTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-09-16T07:14:12Z" name="Test3" finished-at="2024-09-16T07:14:13Z" duration-ms="73">
+      <class name="testscripts.CreateUserTest">
+        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="toConnectWithServer" finished-at="2024-09-16T07:14:12Z" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to connect with the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectWithServer -->
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to connect with the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toConnectWithDatabase -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUser()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="createNewUser" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
+in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[to close the database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tocloseDatabase -->
+        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tocloseServer" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the server]]>
             </line>
           </reporter-output>
         </test-method> <!-- tocloseServer -->
-      </class> <!-- testscripts.ValidLoginTest -->
-    </test> <!-- Test -->
+      </class> <!-- testscripts.CreateUserTest -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>
