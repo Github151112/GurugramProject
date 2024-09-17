@@ -15,7 +15,7 @@ import pompages.UserList;
 
 public class CreateUserTest extends BaseTest {
 
-	@Test
+	@Test(groups = "RT")
 	public void createNewUser() throws EncryptedDocumentException, IOException, InterruptedException {
 		
 		//login

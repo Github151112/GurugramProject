@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[to connect with the server]]>
@@ -8,16 +8,10 @@
       <![CDATA[to connect with the database]]>
     </line>
     <line>
-      <![CDATA[to connect with the database]]>
+      <![CDATA[=======LaunchingchromeBrowser============]]>
     </line>
     <line>
-      <![CDATA[to connect with the database]]>
-    </line>
-    <line>
-      <![CDATA[to close the database]]>
-    </line>
-    <line>
-      <![CDATA[to close the database]]>
+      <![CDATA[Screenshot taken successfully]]>
     </line>
     <line>
       <![CDATA[to close the database]]>
@@ -26,298 +20,135 @@
       <![CDATA[to close the server]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-16T07:14:12Z" name="Suite" finished-at="2024-09-16T07:14:13Z" duration-ms="73">
+  <suite started-at="2024-09-17T06:53:22Z" name="Default suite" finished-at="2024-09-17T06:53:46Z" duration-ms="24118">
     <groups>
+      <group name="FT">
+        <method signature="InvalidLoginTest.invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" name="invalidLogin" class="testscripts.InvalidLoginTest"/>
+      </group> <!-- FT -->
     </groups>
-    <test started-at="2024-09-16T07:14:12Z" name="Test2" finished-at="2024-09-16T07:14:13Z" duration-ms="70">
+    <test started-at="2024-09-17T06:53:22Z" name="Default test" finished-at="2024-09-17T06:53:46Z" duration-ms="24118">
       <class name="testscripts.InvalidLoginTest">
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to connect with the database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="invalidLogin" description="verify the user is able to login with invalid credentials or not" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.InvalidLoginTest@146dfe6]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to close the database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tocloseDatabase -->
-      </class> <!-- testscripts.InvalidLoginTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2024-09-16T07:14:12Z" name="Test1" finished-at="2024-09-16T07:14:13Z" duration-ms="70">
-      <class name="testscripts.ValidLoginTest">
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to connect with the database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="login" description="verify the user is able to login with valid credentials or not" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.ValidLoginTest@5be46f9d]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to close the database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tocloseDatabase -->
-      </class> <!-- testscripts.ValidLoginTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2024-09-16T07:14:12Z" name="Test3" finished-at="2024-09-16T07:14:13Z" duration-ms="73">
-      <class name="testscripts.CreateUserTest">
-        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="toConnectWithServer" finished-at="2024-09-16T07:14:12Z" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="toConnectWithServer" finished-at="2024-09-17T06:53:22Z" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to connect with the server]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectWithServer -->
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="toConnectWithDatabase" finished-at="2024-09-16T07:14:12Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="toConnectWithDatabase" finished-at="2024-09-17T06:53:22Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to connect with the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:12Z" name="setUp" finished-at="2024-09-16T07:14:12Z" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="setUp" finished-at="2024-09-17T06:53:24Z" duration-ms="2444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[=======LaunchingchromeBrowser============]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewUser()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="createNewUser" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
+        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:24Z" name="invalidLogin" finished-at="2024-09-17T06:53:45Z" duration-ms="21071" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='usern']"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e550980b1ab530c39e7ee001f2009d2, findElement {using=name, value=usern}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53655/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e550980b1ab530c39e7ee001f2009d2]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setUp but has not been marked @Optional or defined
-in C:\Users\AMAN SINGH\git\GurugramProject\TimesheetManagementTool\ParrallelExecutiontestng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:290)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='usern']"}
+  (Session info: chrome=128.0.6613.138)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e550980b1ab530c39e7ee001f2009d2, findElement {using=name, value=usern}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53655/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e550980b1ab530c39e7ee001f2009d2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+at pompages.LoginPage.invalidLoginIntoActititme(LoginPage.java:47)
+at testscripts.InvalidLoginTest.invalidLogin(InvalidLoginTest.java:29)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1623)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- createNewUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tearDown" finished-at="2024-09-16T07:14:13Z" duration-ms="0" status="SKIP">
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tearDown" finished-at="2024-09-17T06:53:46Z" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tocloseDatabase" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tocloseDatabase" finished-at="2024-09-17T06:53:46Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the database]]>
             </line>
           </reporter-output>
         </test-method> <!-- tocloseDatabase -->
-        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.CreateUserTest@ca30bc1]" started-at="2024-09-16T07:14:13Z" name="tocloseServer" finished-at="2024-09-16T07:14:13Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tocloseServer" finished-at="2024-09-17T06:53:46Z" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[to close the server]]>
             </line>
           </reporter-output>
         </test-method> <!-- tocloseServer -->
-      </class> <!-- testscripts.CreateUserTest -->
-    </test> <!-- Test3 -->
-  </suite> <!-- Suite -->
+      </class> <!-- testscripts.InvalidLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

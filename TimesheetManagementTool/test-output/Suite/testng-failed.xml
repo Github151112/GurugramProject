@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test2(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="RT"/>
+      </run>
+    </groups>
     <classes>
       <class name="testscripts.InvalidLoginTest">
         <methods>
@@ -15,35 +20,5 @@
         </methods>
       </class> <!-- testscripts.InvalidLoginTest -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" parallel="tests" name="Test1(failed)">
-    <classes>
-      <class name="testscripts.ValidLoginTest">
-        <methods>
-          <include name="tocloseServer"/>
-          <include name="login"/>
-          <include name="tocloseDatabase"/>
-          <include name="tearDown"/>
-          <include name="toConnectWithDatabase"/>
-          <include name="toConnectWithServer"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testscripts.ValidLoginTest -->
-    </classes>
-  </test> <!-- Test1(failed) -->
-  <test thread-count="5" parallel="tests" name="Test3(failed)">
-    <classes>
-      <class name="testscripts.CreateUserTest">
-        <methods>
-          <include name="tocloseServer"/>
-          <include name="tocloseDatabase"/>
-          <include name="tearDown"/>
-          <include name="toConnectWithDatabase"/>
-          <include name="toConnectWithServer"/>
-          <include name="createNewUser"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testscripts.CreateUserTest -->
-    </classes>
-  </test> <!-- Test3(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

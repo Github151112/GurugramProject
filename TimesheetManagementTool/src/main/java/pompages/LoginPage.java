@@ -11,7 +11,7 @@ public class LoginPage extends BaseClass {
 		// TODO Auto-generated constructor stub
 	}
 	
-	@FindBy(name = "username")
+	@FindBy(name = "usern")
 	private WebElement usernameTextField;
 	
 	@FindBy(name = "pwd")

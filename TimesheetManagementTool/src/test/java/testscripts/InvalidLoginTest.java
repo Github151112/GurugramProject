@@ -3,15 +3,18 @@ package testscripts;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import genericlib.BaseTest;
+import genericlib.CustomListener;
 import genericlib.FLib;
 import pompages.LoginPage;
 
+@Listeners(CustomListener.class)
 public class InvalidLoginTest extends BaseTest{
 	
-	@Test(description = "verify the user is able to login with invalid credentials or not")
+	@Test(groups = "FT")
 	public void invalidLogin() throws EncryptedDocumentException, IOException, InterruptedException
 	{
 		

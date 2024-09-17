@@ -20,21 +20,23 @@ import org.testng.annotations.Parameters;
 public class BaseTest implements IAutoConstant {
 	
 	public WebDriver driver;
+	public static WebDriver sdriver;
 	
-	@BeforeSuite
+	
+	@BeforeSuite(alwaysRun = true)
 	public void toConnectWithServer()
 	{
 		Reporter.log("to connect with the server",true);
 	}
 	
-	@BeforeTest
+	@BeforeTest(alwaysRun = true)
 	public void toConnectWithDatabase()
 	{
 		Reporter.log("to connect with the database",true);
 	}
 	
 	@Parameters("browser")
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	public void setUp(@Optional("chrome") String browser) throws IOException
 	{
 		FLib lib = new FLib();
@@ -49,24 +51,25 @@ public class BaseTest implements IAutoConstant {
 			driver = new EdgeDriver();
 		else 
 			Reporter.log("Invalid Browser",true);
+		sdriver = driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMESECONDS));
 		driver.get(url);		
 	}
 	
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown()
 	{
 		driver.quit();
 	}
 	
-	@AfterTest
+	@AfterTest(alwaysRun = true)
 	public void tocloseDatabase()
 	{
 		Reporter.log("to close the database",true);
 	}
 	
-	@AfterSuite
+	@AfterSuite(alwaysRun = true)
 	public void tocloseServer()
 	{
 		Reporter.log("to close the server",true);
