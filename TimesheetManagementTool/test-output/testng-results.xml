@@ -1,154 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[to connect with the server]]>
-    </line>
-    <line>
-      <![CDATA[to connect with the database]]>
-    </line>
-    <line>
-      <![CDATA[=======LaunchingchromeBrowser============]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot taken successfully]]>
-    </line>
-    <line>
-      <![CDATA[to close the database]]>
-    </line>
-    <line>
-      <![CDATA[to close the server]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-09-17T06:53:22Z" name="Default suite" finished-at="2024-09-17T06:53:46Z" duration-ms="24118">
+  <suite started-at="2024-09-18T06:52:24Z" name="Default suite" finished-at="2024-09-18T06:52:35Z" duration-ms="10703">
     <groups>
-      <group name="FT">
-        <method signature="InvalidLoginTest.invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" name="invalidLogin" class="testscripts.InvalidLoginTest"/>
-      </group> <!-- FT -->
     </groups>
-    <test started-at="2024-09-17T06:53:22Z" name="Default test" finished-at="2024-09-17T06:53:46Z" duration-ms="24118">
-      <class name="testscripts.InvalidLoginTest">
-        <test-method is-config="true" signature="toConnectWithServer()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="toConnectWithServer" finished-at="2024-09-17T06:53:22Z" duration-ms="15" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to connect with the server]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectWithServer -->
-        <test-method is-config="true" signature="toConnectWithDatabase()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="toConnectWithDatabase" finished-at="2024-09-17T06:53:22Z" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[to connect with the database]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- toConnectWithDatabase -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:22Z" name="setUp" finished-at="2024-09-17T06:53:24Z" duration-ms="2444" status="PASS">
+    <test started-at="2024-09-18T06:52:24Z" name="Default test" finished-at="2024-09-18T06:52:35Z" duration-ms="10703">
+      <class name="DataProvider.WorkingWithDataProvider">
+        <test-method signature="loginIntoActitime(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.WorkingWithDataProvider@2e48362c]" started-at="2024-09-18T06:52:24Z" name="loginIntoActitime" data-provider="TestData" finished-at="2024-09-18T06:52:27Z" duration-ms="2698" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[sccadmin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mcsccanager]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[=======LaunchingchromeBrowser============]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="invalidLogin()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:24Z" name="invalidLogin" finished-at="2024-09-17T06:53:45Z" duration-ms="21071" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='usern']"}
-  (Session info: chrome=128.0.6613.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e550980b1ab530c39e7ee001f2009d2, findElement {using=name, value=usern}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53655/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e550980b1ab530c39e7ee001f2009d2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='usern']"}
-  (Session info: chrome=128.0.6613.138)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2e550980b1ab530c39e7ee001f2009d2, findElement {using=name, value=usern}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\AMANSI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53655}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53655/devtoo..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2e550980b1ab530c39e7ee001f2009d2
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-at pompages.LoginPage.invalidLoginIntoActititme(LoginPage.java:47)
-at testscripts.InvalidLoginTest.invalidLogin(InvalidLoginTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Screenshot taken successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tearDown" finished-at="2024-09-17T06:53:46Z" duration-ms="250" status="PASS">
+        </test-method> <!-- loginIntoActitime -->
+        <test-method signature="loginIntoActitime(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.WorkingWithDataProvider@2e48362c]" started-at="2024-09-18T06:52:27Z" name="loginIntoActitime" data-provider="TestData" finished-at="2024-09-18T06:52:29Z" duration-ms="2045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman@14kjhbvgk8745]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman@1n48745]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tocloseDatabase()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tocloseDatabase" finished-at="2024-09-17T06:53:46Z" duration-ms="1" status="PASS">
+        </test-method> <!-- loginIntoActitime -->
+        <test-method signature="loginIntoActitime(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.WorkingWithDataProvider@2e48362c]" started-at="2024-09-18T06:52:29Z" name="loginIntoActitime" data-provider="TestData" finished-at="2024-09-18T06:52:31Z" duration-ms="2025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman@kjh148745]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman@,mnl148745]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[to close the database]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tocloseDatabase -->
-        <test-method is-config="true" signature="tocloseServer()[pri:0, instance:testscripts.InvalidLoginTest@4f3bbf68]" started-at="2024-09-17T06:53:46Z" name="tocloseServer" finished-at="2024-09-17T06:53:46Z" duration-ms="1" status="PASS">
+        </test-method> <!-- loginIntoActitime -->
+        <test-method signature="loginIntoActitime(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.WorkingWithDataProvider@2e48362c]" started-at="2024-09-18T06:52:31Z" name="loginIntoActitime" data-provider="TestData" finished-at="2024-09-18T06:52:33Z" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman@hgcfkv148745]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aman@148745]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[to close the server]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- tocloseServer -->
-      </class> <!-- testscripts.InvalidLoginTest -->
+        </test-method> <!-- loginIntoActitime -->
+        <test-method signature="loginIntoActitime(java.lang.String, java.lang.String)[pri:0, instance:DataProvider.WorkingWithDataProvider@2e48362c]" started-at="2024-09-18T06:52:33Z" name="loginIntoActitime" data-provider="TestData" finished-at="2024-09-18T06:52:35Z" duration-ms="1961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman@kjbhljh148745]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amanjhgfitfg@148745]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoActitime -->
+      </class> <!-- DataProvider.WorkingWithDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
